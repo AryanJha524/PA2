@@ -1,0 +1,27 @@
+Strategy 1:
+  Pro: This strategy allows guests to do as they please regarding the rest of the party;
+  they can roam around, visiting other parts of the party.
+  Cons: Using this strategy, the guests (threads) have no guarantee if they will be able
+  to access the vase (the shared resource). There are no protocols in place to ensure each
+  guest is able to access the resource (the vase), so starvation can occur. Crowding around
+  the room also prevents guests from accomplishing their other tasks (exploring the rest of
+  the party)
+
+Strategy 2:
+  Pros: This strategy prevents any unnecessary crowding from occurring. Guests won't crowd
+  the room when the sign reads "BUSY" and can accomplish other tasks in the meantime. Also
+  each guest is responsible for setting the sign, so no external resource is required to
+  manage them
+  Cons: However with this strategy there is no guarantee that each guest gets to see the vase.
+  For example, a guest can come to check the vase but it always reads "BUSY" since other guests
+  manage to get to the vase first.
+
+Strategy 3:
+  Pros: Strategy allows for each guest to visit the vase since they are standing in a queue, which
+  has a determined order to it (first in first out). This explicit ordering prevents starvation from
+  occurring.
+  Cons: Although each guest does get to access the resource, they are stuck in a queue and cannot roam
+  around the party (accomplishing any other tasks).
+
+
+Decision: 
