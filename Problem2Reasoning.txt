@@ -24,4 +24,4 @@ Strategy 3:
   around the party (accomplishing any other tasks).
 
 
-Decision: 
+Decision: I will be implementing strategy 2 which allows guests to have a lock on it
